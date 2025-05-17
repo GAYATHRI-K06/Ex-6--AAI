@@ -1,7 +1,7 @@
-<H3>ENTER YOUR NAME :GAYATHRI K</H3>
-<H3>ENTER YOUR REGISTER NO.212223230061</H3>
+<H3>ENTER YOUR NAME: GAYATHRI K<H3>
+<H3>ENTER YOUR REGISTER NO.:212223230061</H3>
 <H3>EX. NO.6</H3>
-<H3>DATE:</H3>
+<H3>DATE:11-05-2025</H3>
 <H1 ALIGN =CENTER>Implementation of Semantic ANalysis</H1>
 <H3>Aim: to perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques. </H3> 
  <BR>
@@ -17,7 +17,8 @@ Step 5:Iterate through each word in the tokenized text.<br>
 •	Extract synonyms and antonyms using lemma.name() and lemma.antonyms()[0].name() respectively.<br>
 •	Print the unique sets of synonyms and antonyms.
 <H3>Program:</H3>
-``
+
+```
 import nltk
 #import wordnet
 nltk.download( 'punkt' )
@@ -43,12 +44,13 @@ for word in words:
 # Print the synonyms and antonyms
 print ( "Synonyms : " ,set (synonyms) )
 print ( "Antonyms : " ,set(antonyms) )
-``
 
-## Output
+```
 
-![image](https://github.com/user-attachments/assets/8e780769-d29f-48a4-830c-8ae8ebc37e5b)
+<H3>Output</H3>
 
+
+![442487574-48b2cdb1-bb1f-4cc9-b525-e05279f1e538](https://github.com/user-attachments/assets/6e6096f1-e93f-4393-b5e5-b58455f5e517)
 
 <H3>Result:</H3>
 Thus ,the program to perform the Parts of Speech identification and Synonymis executed sucessfully.
